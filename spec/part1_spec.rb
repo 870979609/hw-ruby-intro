@@ -16,7 +16,7 @@ describe 'Ruby intro part 1' do
 
     it "works on the empty array [10 points]" , points: 10 do
       expect { sum([]) }.not_to raise_error
-      expect(sum([])).to be_zero
+      expect(sum([])).to be_zero  
     end
   end
 
